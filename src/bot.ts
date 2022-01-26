@@ -33,7 +33,7 @@ export const setupBot = async () => {
     if (commandName === "driphelp") {
       const walletAddress = await getWalletAddress();
       interaction.reply(
-        `Drip ETH to address on nahmii mainnet 🚀\nTo qualify you must meet the following: \n\n- Have bridged tokens ONCE \n- Have 0 ETH in account\n\nThis is a communtity faucet, help by donating ETH to ${walletAddress}`
+        `Drip ETH to address on nahmii mainnet 🚀\nTo qualify you must meet the following: \n\n- Have bridged tokens ONCE \n- Have 0 ETH in account\n\nThis is a community faucet, help by donating ETH to ${walletAddress}`
       );
     }
 
